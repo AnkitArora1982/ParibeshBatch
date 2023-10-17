@@ -20,6 +20,7 @@ public class HotelController {
 	@RequestMapping(value = "/searchHotel/{searchString}",method = RequestMethod.GET)
 	public List<Hotel> searchHotel(@PathVariable String searchString){
 		//first commit by ankit...
+		//third commit by ankit using sts...
 		return hotelServiceImpl.searchHotel(searchString);
 	}
 	
